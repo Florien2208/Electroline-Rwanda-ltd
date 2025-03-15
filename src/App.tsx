@@ -1,3 +1,31 @@
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomeNav from "./pages/Home";
+import DashboardLayout from "./layout/DashboardLayout";
+import Layout from "./layout/HomeLayout";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          path: "",
+          element: <HomeNav />,
+        },
+      ],
+    },
+    {
+      path: "/dashboard",
+      element: <DashboardLayout />,
+      children: [
+        {
+          path: "",
+          element: <HomeNav />,
+        },
+      ],
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
