@@ -1,14 +1,13 @@
-import solar from "../assets/images.jpeg"
-import industry from "../assets/images (1).jpeg"
-import commercial from "../assets/istockphoto-479842074-612x612.jpg"
+import solar from "../assets/images.jpeg";
+import industry from "../assets/images (1).jpeg";
+import commercial from "../assets/istockphoto-479842074-612x612.jpg";
+import athanaz from "../assets/athanazi.jpg"
+import logo from "../assets/Electroline_PNG[1].png"
 
 const HomePage = () => {
- 
-
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* Header */}
-     
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-24">
@@ -54,9 +53,9 @@ const HomePage = () => {
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="md:w-1/2">
                 <img
-                  src="/api/placeholder/600/400"
+                  src={logo}
                   alt="Company headquarters in Kigali"
-                  className="rounded-lg shadow-xl"
+                  className=""
                 />
               </div>
               <div className="md:w-1/2">
@@ -64,26 +63,57 @@ const HomePage = () => {
                   Our Story
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Established in 2015, Electroline Rwanda Ltd. has rapidly grown
-                  to become one of the leading electrical engineering firms in
-                  Rwanda. Our company specializes in providing comprehensive
-                  electrical solutions for commercial, industrial, and
-                  residential projects throughout the country.
+                  Electroline Rwanda Ltd was founded in 2024 with a vision to
+                  revolutionize the electrical, IT and security industries in
+                  Rwanda. Based in Rwanda and East Africa as well, we are a
+                  dedicated team of professionals specializing in electrical
+                  installations, telecommunications, networking, security
+                  systems, repairs, Education support and business support
+                  services.
                 </p>
                 <p className="text-gray-600 mb-4">
-                  With a team of highly qualified engineers and technicians, we
-                  pride ourselves on delivering quality services that meet
-                  international standards while supporting Rwanda's vision of
-                  sustainable development and technological advancement.
+                  From the beginning, our mission has been to provide
+                  innovative, reliable, and high-quality solutions to homes,
+                  businesses, and industries across Rwanda. With a strong focus
+                  on technology and customer satisfaction, we have grown into a
+                  trusted partner for electrical and IT services.
                 </p>
-                <h3 className="text-2xl font-bold text-gray-800 mb-4 mt-8">
+                <p className="text-gray-600 mb-4">
+                  At Electroline Rwanda Ltd, we believe in excellence,
+                  integrity, and continuous innovation. Our experts are
+                  committed to delivering cutting-edge solutions, whether it's
+                  securing properties with advanced access control systems,
+                  setting up telecommunications infrastructure, or ensuring
+                  seamless electrical installations.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  Join us on our journey as we continue to power progress,
+                  enhance security, and drive digital transformation in Rwanda
+                  '' WELCOME TO ELECTROLINE RWANDA LTD'' where technologies
+                  meets
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-12 items-center max-w-6xl mx-auto py-12 px-4">
+              <div className="md:w-1/2">
+                <img
+                  src={athanaz}
+                  alt="Technician installing network equipment"
+                  className="rounded-lg shadow-xl w-full h-[250px] object-cover object-center"
+                />
+              </div>
+              <div className="md:w-1/2">
+                <h3 className="text-2xl font-bold text-gray-800 mb-4">
                   Ownership
                 </h3>
                 <p className="text-gray-600">
-                  Electroline Rwanda Ltd. is a privately owned Rwandan company
-                  founded by a team of experienced electrical engineers with a
-                  vision to contribute to Rwanda's growing infrastructure
-                  development.
+                  ELECTROLINE RWANDA LTD is a privately owned Rwandan company
+                  founded by Athanase NiyonsHuti with a vision to contribute to
+                  Rwanda's growing infrastructure development. Its ownership
+                  structure provides full control over strategic decisions and
+                  business operations. Committed to growth and innovation,
+                  Electroline Rwanda Ltd strives to deliver high-quality
+                  services across Rwanda
                 </p>
               </div>
             </div>
@@ -99,8 +129,9 @@ const HomePage = () => {
               Our Services
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We offer comprehensive electrical engineering solutions tailored
-              to meet the specific needs of our diverse clientele.
+              At Electroline Rwanda Ltd, our mission is to deliver reliable,
+              high-quality, and innovative solutions that drive progress and
+              ensure customer satisfaction
             </p>
             <div className="h-1 w-20 bg-yellow-400 mx-auto mt-4"></div>
           </div>
@@ -123,12 +154,12 @@ const HomePage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Electrical Installations
+                Electrical Installations & Maintenance
               </h3>
               <p className="text-gray-600">
-                Complete electrical installations for new buildings, including
-                wiring, lighting, power outlets, and switchboards to meet your
-                specific requirements.
+                We specialize in the installation, maintenance, and repair of
+                residential, commercial, and industrial electrical systems,
+                ensuring safety and efficiency.
               </p>
             </div>
 
@@ -149,12 +180,12 @@ const HomePage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Solar Energy Solutions
+                Security Systems & Access Control
               </h3>
               <p className="text-gray-600">
-                Design and installation of solar power systems for residential
-                and commercial properties, promoting sustainable energy use
-                across Rwanda.
+                Our team provides advanced security solutions, including CCTV
+                installation, biometric access control, alarm systems, and fire
+                detection systems, enhancing safety for homes and businesses.
               </p>
             </div>
 
@@ -181,11 +212,12 @@ const HomePage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Maintenance Services
+                Networking & Telecommunications
               </h3>
               <p className="text-gray-600">
-                Regular inspection and maintenance of electrical systems to
-                ensure safety, efficiency, and compliance with standards.
+                We offer wired and wireless networking solutions, including
+                LAN/WAN setup, fiber optic installations, internet connectivity
+                solutions, and telecom infrastructure services.
               </p>
             </div>
 
@@ -206,11 +238,12 @@ const HomePage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Electrical Design & Consulting
+                IT Services & Consultancy
               </h3>
               <p className="text-gray-600">
-                Professional consultation and design services for electrical
-                systems in new construction and renovation projects.
+                We provide computer programming, software solutions, IT
+                consultancy, and system integration to enhance business
+                efficiency and digital transformation.
               </p>
             </div>
 
@@ -231,12 +264,12 @@ const HomePage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Power Distribution
+                Technical Testing & Repair Services
               </h3>
               <p className="text-gray-600">
-                Design and implementation of power distribution systems for
-                commercial buildings, industrial facilities, and residential
-                complexes.
+                Our team conducts technical inspections, testing, and repair
+                services for electrical equipment, IT hardware, consumer
+                electronics, and communication devices.
               </p>
             </div>
 
@@ -257,11 +290,12 @@ const HomePage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Automation & Control Systems
+                Business Support & Educational Services
               </h3>
               <p className="text-gray-600">
-                Implementation of advanced automation and control systems for
-                industrial processes and smart buildings.
+                We offer business consultancy, training programs, and
+                educational support activities to empower businesses and
+                individuals with technical knowledge and digital skills.
               </p>
             </div>
           </div>
@@ -737,8 +771,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
-      
     </div>
   );
 };
