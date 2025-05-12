@@ -1,8 +1,8 @@
 import solar from "../assets/images.jpeg";
 import industry from "../assets/images (1).jpeg";
 import commercial from "../assets/istockphoto-479842074-612x612.jpg";
-import athanaz from "../assets/athanazi.jpg"
-import logo from "../assets/Electroline_PNG[1].png"
+import athanaz from "../assets/athanazi.jpg";
+import logo from "../assets/Electroline_PNG[1].png";
 
 const HomePage = () => {
   return (
@@ -123,7 +123,6 @@ const HomePage = () => {
 
       {/* Services Section */}
       <section id="services" className="py-20 bg-gray-100">
-        
         <div className="container mx-auto px-4 w-full max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -574,7 +573,7 @@ const HomePage = () => {
                     <div>
                       <h4 className="font-bold text-gray-800">Address</h4>
                       <p className="text-gray-600">
-                        KG 123 Street, Kimihurura
+                        KK 15 Rd Street, Kigali
                         <br />
                         Kigali, Rwanda
                       </p>
@@ -599,8 +598,8 @@ const HomePage = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-800">Phone</h4>
-                      <p className="text-gray-600">+250 788 123 456</p>
-                      <p className="text-gray-600">+250 785 789 123</p>
+                      <p className="text-gray-600">+250 788 428 828</p>
+                      <p className="text-gray-600">+250 790 002 088</p>
                     </div>
                   </div>
 
@@ -623,11 +622,9 @@ const HomePage = () => {
                     <div>
                       <h4 className="font-bold text-gray-800">Email</h4>
                       <p className="text-gray-600">
-                        info@electrolinerwanda.com
+                        athanasexxiij28@gmail.com
                       </p>
-                      <p className="text-gray-600">
-                        support@electrolinerwanda.com
-                      </p>
+                      
                     </div>
                   </div>
 

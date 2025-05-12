@@ -1,5 +1,5 @@
 
-
+import logo from "../assets/Electroline_PNG[1].png";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
@@ -7,8 +7,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="h-10 w-10 bg-yellow-400 rounded-full flex items-center justify-center">
-                <span className="text-blue-900 font-bold text-xl">E</span>
+              <div className="h-10 w-10 flex items-center justify-center">
+                <span className="text-blue-900 font-bold text-xl">
+                  {" "}
+                  <img
+                    src={logo}
+                    alt="Company headquarters in Kigali"
+                    className=""
+                  />
+                </span>
               </div>
               <div className="text-xl font-bold">Electroline Rwanda Ltd.</div>
             </div>

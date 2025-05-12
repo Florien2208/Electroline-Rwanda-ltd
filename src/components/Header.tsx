@@ -1,5 +1,5 @@
 import  { useState } from "react";
-
+import logo from "../assets/Electroline_PNG[1].png"
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -7,8 +7,15 @@ const Header = () => {
     <header className="bg-blue-900 text-white shadow-lg">
       <div className="w-full max-w-5xl mx-auto px-4 py-5 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <div className="h-10 w-10 bg-yellow-400 rounded-full flex items-center justify-center">
-            <span className="text-blue-900 font-bold text-xl">E</span>
+          <div className="h-14 w-20  flex items-center justify-center">
+            
+              
+              <img
+                src={logo}
+                alt="Company headquarters in Kigali"
+                className=""
+              />
+   
           </div>
           <div className="text-xl font-bold">Electroline Rwanda Ltd.</div>
         </div>
