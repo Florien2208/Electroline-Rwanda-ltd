@@ -7,7 +7,7 @@ interface SidebarProps {
 interface MenuItem {
   name: string;
   label: string;
-  icon: JSX.Element;
+  icon: React.ReactElement;
   submenu?: { name: string; label: string }[];
 }
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
